@@ -1,13 +1,14 @@
-import React from "react";
-import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
-
+import React from 'react'
+import Card from 'react-bootstrap/Card'
+import { FaBasketballBall } from 'react-icons/fa'
+import { IoGameController } from 'react-icons/io5'
+import { MdModeOfTravel } from 'react-icons/md'
 function AboutCard() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
+          <p style={{ textAlign: 'justify' }}>
             Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
             from <span className="purple"> Bhubaneswar, India.</span>
             <br />
@@ -21,24 +22,25 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <FaBasketballBall></FaBasketballBall>&nbsp; Playing BasketBall
+            </li>
+
+            <li className="about-activity">
+              <IoGameController></IoGameController>&nbsp; Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
+              <MdModeOfTravel></MdModeOfTravel>&nbsp; Travelling
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+          <p style={{ color: 'rgb(102, 255, 0)' }}>
+            "I want a stable job, a good society, and a lot of money."{' '}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Jasdakorn Khumdej</footer>
         </blockquote>
       </Card.Body>
     </Card>
-  );
+  )
 }
 
-export default AboutCard;
+export default AboutCard

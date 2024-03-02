@@ -10,7 +10,7 @@ import {
   FaInstagram,
   FaLinkedinIn,
 } from 'react-icons/fa'
-import myImg from '../../Assets/myPic.png'
+import myImg from '../../Assets/myPicB.jpg'
 
 function Home2() {
   return (
@@ -58,7 +58,7 @@ function Home2() {
           </Col>
         </Row>
         <Row>
-          <Col md={12} className="home-about-social">
+          <Col md={12} className="home-about-social ">
             <h1>FIND ME ON</h1>
             <p>
               Feel free to <span className="purple">connect </span>with me
