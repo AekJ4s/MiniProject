@@ -12,11 +12,8 @@ function AboutCard() {
             Hi Everyone, I am <span className="green">Jasdakorn Khumdej </span>
             from <span className="green"> Bangkok, Thailand.</span>
             <br />
-            I am currently studying at the bachelor's level. as a electronic
-            computer technology at King Mongkut University of North Bangkok.
-            <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            I have completed the bachelor's level. in electronic computer
+            technology at King Mongkut University of North Bangkok.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
