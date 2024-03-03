@@ -15,8 +15,8 @@ function Footer() {
             <span className="purple">Jasdakorn Khumdej</span>
           </h3>
         </Col>
-        <Col md="4" className="footer-copywright">
-          <h3>Create in © {year} SB</h3>
+        <Col md="4" className="footer-copywright ">
+          <h3>Create in © {year} </h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">

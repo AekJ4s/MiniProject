@@ -7,6 +7,7 @@ import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
+import { GrReactjs } from 'react-icons/gr'
 import {
   AiFillStar,
   AiOutlineHome,
@@ -39,7 +40,9 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+          <div className="loaderIcon">
+            <GrReactjs></GrReactjs>
+          </div>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -68,7 +71,6 @@ function NavBar() {
                 <AiOutlineUser style={{ marginBottom: '2px' }} /> About
               </Nav.Link>
             </Nav.Item>
-
 
             <Nav.Item>
               <Nav.Link
