@@ -22,7 +22,11 @@ function Home2() {
               LET ME <span className="green"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am studying at King Mongkut university of North Bangkok
+              I am
+              <strong>
+                {' '}
+                <b className="green"> Jasdakorn Khumdej </b>
+              </strong>
               <br />
               <br />I am fluent in classics like
               <i>
@@ -32,8 +36,7 @@ function Home2() {
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="green">Web Technologies and Products </b> and also
-                in areas related to <b className="green">Blockchain.</b>
+                <b className="green">Web Technologies and Products </b>
               </i>
               <br />
               <br />
