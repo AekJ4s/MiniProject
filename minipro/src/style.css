@@ -257,7 +257,7 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/back1.jpg);
+  background-image: var(--image-gradient), url(./Assets/aboutbg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -320,7 +320,7 @@ button:focus {
 
 .home-about-section {
   position: relative;
-  background-image: var(--image-gradient), url(./Assets/home2-bg.jpg);
+  background-image: var(--image-gradient), url(./Assets/bg.png);
   padding-bottom: 70px !important;
   padding-top: 70px !important;
 }
@@ -355,9 +355,9 @@ button:focus {
 }
 
 .loaderIcon {
-    margin-right: 7px;
-    top: 2px;
-    animation: spin 1s infinite linear;
+  margin-right: 7px;
+  top: 2px;
+  animation: spin 1s infinite linear;
 }
 
 .home-social-icons {
@@ -557,7 +557,7 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  background-image: var(--image-gradient), url(./Assets/bg.png);
   color: white !important;
 }
 
@@ -617,14 +617,14 @@ button:focus {
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  background-image: var(--image-gradient), url(./Assets/bg.png);
   color: white !important;
 }
 .transcript-section {
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  background-image: var(--image-gradient), url(./Assets/bg.png);
   color: white !important;
 }
 

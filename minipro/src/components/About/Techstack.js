@@ -8,16 +8,10 @@ import {
   DiNodejs,
   DiMongodb,
   DiPython,
-  DiGit,
   DiJava,
 } from "react-icons/di";
 import {
-  SiRedis,
   SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
-  SiCsharp,
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
